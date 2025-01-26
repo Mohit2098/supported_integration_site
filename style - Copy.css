@@ -1,0 +1,1410 @@
+
+
+  .home-page-section {
+    background-image: url('bg-img.jpg'); /* Replace with your image URL */
+    background-position: top left;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: rgba(224, 224, 224, 0);
+    color: rgba(255, 255, 255, .85);
+    padding: 50px 0px 0px 0px;
+    text-align: center;
+  }
+
+  .home-page-section.container{
+    padding: 0px;
+
+  }
+
+
+
+  .content h1 {
+    margin-bottom: 20px;
+    font-family: "Alike", serif;
+    font-weight: 700;
+    line-height: 1.2em;
+    font-size: 49px;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: 4px;
+    text-align: left;
+}
+  
+
+  .content ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  
+  }
+
+  .btn-book-session {
+  
+        font-size: 12px;
+        font-weight: 400;
+        font-style: normal;
+        text-transform: uppercase;
+        letter-spacing: .1em;
+        color: #fff;
+        color: #ffbf00;
+        border-color: #ffbf00;
+        border-radius: 0;
+        width: 166px;
+        height: 49px;
+     
+  
+  }
+  .btn-book-session:hover{
+    background:  #ffbf00;
+    color: #fff;
+  }
+
+  
+
+
+
+  .section-2-cl{
+    margin-top: 2rem;
+
+    
+  }
+
+
+  .section-2-cl h2{
+
+
+  font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.3em;
+    font-size: 26px;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: .02em;
+    text-align: left;
+    color:#fff;
+
+  }
+
+ 
+
+
+  .clear:after {
+    display: block;
+    visibility: hidden;
+    font-size: 0;
+    height: 0;
+    clear: both;
+    content: ".";
+}
+
+
+  /* header styles */
+
+/* .main-header-class .row{
+    justify-content: space-between;
+    align-items: center;
+}
+  */
+
+/* .main-header-class .main-menu {
+    position: relative;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+  
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.2em;
+
+} */
+
+.main-header-class li:hover .sub-menu {
+    display: block;
+}
+
+ul.sub-menu {
+    width: max-content;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+        padding-top: 1rem;
+        right: 0px;
+        left: 10px;
+        text-align: left;
+        
+    
+}
+
+.sub-menu li {
+
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.2em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+   margin-bottom: 1rem;
+   color: #fff;
+}
+
+.sub-menu li a:hover{
+
+    color: rgba(255, 255, 255, .7);
+
+
+}
+
+
+
+.content .header{
+    margin-top: 2px;
+    margin-bottom: 7rem;
+}
+
+/* .nav-menus-col-cl{
+    justify-content: end;
+    display: flex;
+} */
+  
+.section-2-sub-col-right{
+    margin-left: 6rem;
+
+}
+
+
+.section-2-sub-col-left li{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.6em;
+    font-size: 20px;
+    text-transform: none;
+    text-decoration: none;
+   text-align: left;
+   
+
+}
+
+.section-2-sub-col-right{
+    width: 50%;
+
+
+}
+.section-2-sub-col-right li{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.6em;
+    font-size: 20px;
+    text-transform: none;
+    text-decoration: none;
+    text-align: left;
+   
+}
+
+
+.section-2-cl p{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.6em;
+    font-size: 20px;
+    text-transform: none;
+    text-decoration: none;
+    margin: 0 0 1.6em;
+    text-align: left;
+
+
+}
+
+
+
+
+
+.section-3-cl{
+    margin-top: 2rem;
+}
+
+.section-3-cl h2{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.3em;
+    font-size: 30px;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: .02em;
+    text-align: left;
+}
+
+
+
+  .section-3-cl p{
+
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.6em;
+    font-size: 20px;
+    text-transform: none;
+    text-decoration: none;
+    margin: 0 0 1.6em;
+    text-align: left;
+
+  }
+
+
+  .section-3-cl ul{
+
+        display: flex;
+        flex-direction: column;
+        padding-left: 2rem;
+  }
+
+
+  
+  .section-3-cl li{
+
+    font-family: "Josefin Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 1.6em;
+        font-size: 20px;
+        text-transform: none;
+        text-decoration: none;
+        margin: 0 0 1.6em;
+        text-align: left;
+    list-style: disc;
+
+  }
+
+  .section-3-right-col{
+    width: 60%;
+
+  }
+
+
+
+  .section-4-cl h2{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.3em;
+    font-size: 30px;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: .02em;
+    text-align: left;
+
+  }
+
+  .section-4-cl{
+    margin-top: 2rem;
+
+  
+  }
+
+  .section-4-right-col{
+    width: 60%;
+  }
+
+  .footer-class{
+    margin-top: 10rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+
+  }
+
+
+
+
+  .btn-appointment{
+    border-radius: 0;
+    height: 50px;
+    font-family: "Josefin Sans", sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      font-style: normal;
+      text-transform: uppercase;
+      letter-spacing: .1em;
+      padding: 28px;
+      color: #ffbf00;
+      border-color: #ffbf00;
+      
+      justify-content: left;
+    display: flex;
+    align-items: center;
+
+  }
+
+  .btn-appointment:hover{
+    background:  #ffbf00;
+    color: #fff;
+  }
+
+  .footer-info{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+
+
+  .footer-info h5{
+
+    font-family: 'Unna';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.3em;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .2em;
+    text-align: left;
+
+  }
+
+  .footer-info p{
+
+    font-family: 'Unna';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.3em;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .2em;
+    text-align: left;
+
+  }
+
+  .footer-info a{
+    color: #65a9b8;
+  }
+
+
+
+  .footer-cc-cl{
+    justify-content: left;
+    display: flex;
+    font-family: 'Unna';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.6em;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .1em;
+    
+  }
+
+  .footer-cc-cl a{
+    color: #65a9b8;
+
+  }
+
+
+  /* therapist page */
+
+  .content-cl{
+   
+    text-align: left;
+  padding-left: 1rem;
+    padding-top: 3rem;
+}
+  
+
+.content-section-1 h1{
+
+    font-family: 'coronette';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.2em;
+    font-size: 49px;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: 0px;
+}
+
+
+  .content-section-1 .content-cl p{
+    font-family: 'Unna';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.3em;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .2em;
+    margin-bottom: 8rem;
+    margin-right: 4rem;
+
+  }
+
+
+  .content-section-1 .row{
+
+justify-content: center;
+  }
+
+
+ 
+  .content-section-1 .left-col{
+
+  justify-content: left;
+  display: flex;
+  padding-left: 30px;
+
+}
+
+.content-section-1 .right-col {
+    justify-content: center;
+    display: flex;
+}
+
+
+
+  .content-section-2 h3{
+    font-family: 'Unna';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.3em;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .2em;
+
+
+
+  }
+
+
+  .content-section-2 .row{
+
+    text-align: left;
+    justify-content: center;
+    padding: 1rem;
+
+
+  }
+
+
+  .content-section-2 .left-col p{
+
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.6em;
+    font-size: 20px;
+    text-transform: none;
+    text-decoration: none;
+    margin: 0 0 1.6em;
+    text-align: left;
+
+  }
+
+
+  .content-section-2 .right-col p{
+
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.6em;
+    font-size: 20px;
+    text-transform: none;
+    text-decoration: none;
+    margin: 0 0 1.6em;
+    text-align: left;
+}
+  
+.content-section-2 a{
+    color: #65a9b8;
+    text-align: left;
+    display: flex;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.6em;
+    font-size: 20px;
+    text-transform: none;
+    text-decoration: none;
+}
+
+
+.content-section-3 .row{
+    padding: 1rem;
+}
+.content-section-3 a{
+
+    font-family: 'coronette';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.2em;
+    font-size: 49px;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: 0px;
+
+}
+
+
+.content-section-3 .right-col-content h3{
+
+    font-family: 'Unna';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.3em;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .2em;
+    text-align: left;
+
+}
+
+.content-section-3 .right-col-content p{
+
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.6em;
+    font-size: 20px;
+    text-transform: none;
+    text-decoration: none;
+    margin: 0 0 1.6em;
+    text-align: left;
+}
+
+
+.content-section-3 h1{
+
+    font-family: 'coronette';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.2em;
+    font-size: 49px;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: 0px;
+}
+
+
+.content-section-4 .row{
+    padding: 1rem;
+}
+.content-section-4  .right-col-content  h3{
+font-family: 'Unna';
+font-weight: 400;
+font-style: normal;
+line-height: 1.3em;
+font-size: 18px;
+text-transform: uppercase;
+text-decoration: none;
+letter-spacing: .2em;
+text-align: left;
+
+}
+
+
+
+
+.content-section-4  .right-col-content p{
+    font-family: "Josefin Sans", sans-serif;
+font-weight: 400;
+font-style: normal;
+line-height: 1.6em;
+font-size: 20px;
+text-transform: none;
+text-decoration: none;
+margin: 0 0 1.6em;
+text-align: left;
+
+}
+
+
+
+
+
+.content-section-4  .right-col-content a{
+    font-family: 'Unna';
+font-weight: 400;
+font-style: normal;
+line-height: 1.3em;
+font-size: 18px;
+text-transform: uppercase;
+color: #65a9b8;
+text-decoration: none;
+}
+
+
+
+
+/* the content page html */
+
+
+
+.content-page-hr{
+
+    width: 84%;
+
+}
+
+.left-col-content.heading h2{
+
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.3em;
+    font-size: 30px;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: .02em;
+
+}
+
+
+
+
+
+
+.the-therapy-cl p {
+    font-size: 16px;
+    margin-right: 3rem;
+    text-align: left;
+    padding-left: 1rem;
+      padding-top: 3rem;
+        font-family: 'Unna';
+        font-weight: 400;
+        font-style: normal;
+        line-height: 1.3em;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: .2em;
+        margin-bottom: 8rem;
+        
+    
+    
+    
+  
+}
+
+
+/* rate policies */
+
+.content-section-1 .rate-policies-cl .row{
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin-bottom: 5rem;
+}
+
+.content-section-1 .rate-policies-cl h3{
+    font-family: 'Unna';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.3em;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .2em;
+    text-align: left;
+    padding-top: 3rem;
+  
+
+}
+
+
+.content-section-1 .rate-policies-cl .rate-policies-session-col {
+
+    width: 30%;
+
+}
+
+.rate-policies-session-col  p{
+    text-align: left;
+}
+
+
+.content-section-2 .refferal-cl-a{
+    display: contents;
+}
+
+
+.about-a-refferral-btn{
+
+    justify-content: center;
+    display: flex;
+}
+
+
+.about-a-refferral-banner-btn .btn-book-session{
+        width: 220px;
+
+
+
+}
+
+.about-a-refferral-btn .btn-book-session {
+    width: 18%;
+    height: 45px;
+    align-items: center;
+}
+
+.refferal-sec-1 .container .row{
+    margin-bottom: 4rem;
+}
+
+
+
+.refferal-banner-cl{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5rem;
+    padding-left: 37px;
+}
+
+
+.content-section-2 .refferals-sub-right-row{
+
+    justify-content: space-between;
+    display: flex;
+    padding: 0;
+ 
+  
+}
+
+.content-section-2 .refferals-sub-right-col{
+
+    width: 50%;
+}
+
+
+.content-section-2 .refferals-sub-right-col p{
+    
+    margin: 0;
+
+
+}
+
+
+.connect-section-cl h3{
+    font-family: 'Unna';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.3em;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .2em;
+    text-align: left;
+
+}
+
+
+
+
+.connect-section-cl p{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.6em;
+    font-size: 20px;
+    text-transform: none;
+    text-decoration: none;
+    margin: 0 0 1.6em;
+    text-align: left;
+
+}
+.connect-section-cl .row{
+    padding: 1rem;
+}
+
+.connect-section-cl a{
+    color: #65a9b8;
+
+}
+
+
+.connect-wrapper-cl .left-col {
+    width: 32%;
+}
+
+
+.connect-wrapper-cl h1{
+    font-size: 49px;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-family: coronette;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.2em;
+}
+
+
+
+.connect-page-hr{
+
+    width: 82%;
+
+}
+.grayscale-map {
+    filter: grayscale(100%);
+}
+
+
+label.full-width-label
+{
+    font-size: 16px!important;
+}
+
+.book-session-form-wrapper .half-width-input-field{
+
+    width: 50%;
+}
+
+
+
+.select-option-cl{
+
+    font-size: 14px;
+}
+
+
+
+
+
+.main-heading{
+    column-gap: 1ex;
+    align-items: center;
+    display: flex;
+    text-align: left;
+   
+    margin-bottom: 1rem;
+
+}
+
+.book-session-form-wrapper input {
+    width: 100% !important;
+    height: 44px;
+}
+
+
+.book-session-form-wrapper textarea{
+    width: 100% !important;
+    height: 100px;
+
+}
+
+
+.book-session-form-wrapper select{
+    width: 100% !important;
+    height: 44px;
+
+}
+
+
+.book-session-form-wrapper .description-required{
+  
+    font-size: 12px;
+    opacity: .7;
+    display: block;
+    white-space: pre-wrap;
+    margin: 0;
+}
+
+.book-session-form-wrapper .form-item{
+    text-align: left;
+}
+
+
+.book-session-form-wrapper .form-item label{
+
+    font-size: 12px;
+    display: flex;
+
+}
+
+
+.book-session-form-wrapper .form-items-row-cl{
+    align-items: end;
+
+}
+
+
+
+.book-session-form-wrapper  .full-width-input-field{
+
+    width: 100%;
+
+}
+
+.form-button-wrapper .form-submit-button {
+
+    justify-content: start;
+    display: flex;
+    font-family: 'Unna';
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    width: auto;
+    height: auto;
+    padding: 1em 2.5em;
+    border-width: 0;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+
+}
+.form-button-wrapper .form-submit-button:hover{
+color: #111;
+background-color: #fff;
+
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.form-error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.error-cl {
+    background-color: #ffeae8;
+    border: 1px solid #ce2c30;
+   
+
+    
+}
+
+
+.error {
+
+    width: 116px;
+
+}
+
+.error p{
+
+  
+text-align: justify;
+margin-bottom: 1rem;
+align-items: flex-start;
+background-color: #ce2c30;
+color: #fff;
+display: flex;
+font-size: 13px;
+font-weight: 400;
+padding: 6px 10px;
+font-family: "Josefin Sans", sans-serif;
+
+
+}
+
+
+.form-error{
+    text-align: left;
+    width: 70%;
+    margin: 1rem;
+    align-items: flex-start;
+    background-color: #ce2c30;
+    color: #fff;
+    column-gap: 10px;
+    display: flex;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 6px 10px;
+    border: 0px;
+    border-radius: 0px;
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .nav-menus-col-cl {
+        justify-content: center;
+        display: flex;
+    }
+
+    .content .header {
+      
+        margin-bottom: 3rem;
+    }
+    .content h1 {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .section-2-left-col-cl {
+
+        width: 100%;
+  }
+
+  .section-3-right-col {
+    width: 100%;
+
+  }
+
+  .content-section-1 .left-col{
+   justify-content: center;
+   padding: 0px;
+   margin-bottom: 5rem;
+
+}
+
+
+
+
+.content-section-1 .content-cl p{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+
+}
+
+
+.content-section-2 .right-col p{
+    font-size: 18px;
+}
+
+.content-section-3 .row {
+    padding: 3rem;
+}
+.content-section-4 .row{
+    font-size: 18px;
+}
+.the-therapy-cl p{
+ 
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 14px;
+
+}
+
+
+
+.content-page-hr {
+    width: 100%;
+}
+
+
+.refferal-banner-cl{
+    flex-direction: column;
+
+}
+.connect-wrapper-cl{
+    justify-content: center;
+    display: flex;
+}
+
+
+.connect-section-cl .left-col{
+    padding: 4rem;
+
+}
+
+.grayscale-map{
+
+    width: -webkit-fill-available;
+}
+
+
+.form-item.required{
+
+    margin-top: 2rem;
+}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 990px) {
+    
+.home-page-section .content{
+    width: 100%;
+
+}
+.main-header-class .row {
+   
+    align-items: flex-start;
+}
+
+.main-header-class ul {
+   
+    padding: 0px;
+}
+
+.content-section-1 h1 {
+    font-size: 30px;
+}
+
+
+.content-section-1 .row {
+    justify-content: space-between;
+}
+
+
+.content-section-1 .content-cl p {
+
+padding: 0px;
+margin: 0px;
+
+
+
+  }
+
+  .content-section-1  .your-therapist-first-row-cl{
+
+
+
+  }
+
+
+
+  .content-section-1 .content-sec-desc-cl{
+
+    width: 100%;
+
+  }
+
+
+  .content-section-1 .content-cl p{
+
+    font-size: 14px;
+
+  }
+
+
+  .content-section-2 .row {
+   
+    justify-content: space-between;
+  
+}
+
+
+.content-section-3 .row{
+
+    justify-content: space-between;
+
+}
+
+
+.content-section-4 .row{
+    
+    justify-content: space-between;
+
+}
+
+.content-page-hr {
+
+    width: 100%;
+
+}
+
+
+.the-therapy-cl p {
+    font-size: 14px;
+    margin-bottom: 4rem;
+
+}
+
+.left-col-content.heading h2 {
+    font-size: 21px;
+
+}
+
+
+.content-section-2 .right-col p{
+    font-size: 18px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+.logo-cl img {
+    height: auto;
+    width: auto;
+    max-height: 40px;
+    max-width: 100%;
+    margin-right: 5px;
+   
+
+}
+
+.logo-cl{
+  
+    justify-content: center;
+    display: flex;
+    padding-right: 9rem;
+}
+
+
+.container {
+    margin: 0 auto;
+    padding: 44px 90px 0px;
+}
+
+/* .content .header {
+    margin-top: -2px;
+    margin-bottom: 7rem;
+} */
+
+
+
+.nav-menus-col-cl{
+
+    align-items:end;
+
+
+}
+
+
+li.main-menu{
+
+    padding: 10px;
+
+}
+
+.nav-menus-col-cl{
+    justify-content: center;
+    display: flex;
+}
+
+
+.main-header-class .main-menu  {
+    position: relative;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 0.2em;
+    color: #fff;
+}
+
+
+.main-header-class .main-menu a {
+
+    color: #fff;
+    text-decoration: none;
+
+}
+
+
+
+.main-header-class .main-menu a{
+    color:#fff;
+
+}
+
+
+.main-header-class .main-menu a:hover{
+    color: rgba(255, 255, 255, .7);
+
+}
+
+
+
+
+
+.nav-menus-col-cl{
+    padding-left: 136px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content h1{
+    padding: 9px;
+}
+
+
+.banner-section{
+    padding: 1rem 4rem 0rem 4rem;
+}
+
+
+
+.btn .btn-book-session{
+
+
+}
+
+
+.book-btn-cl{
+    justify-content: end;
+    display: flex;
+    padding-right: 35px;
+}
+
+
+
+
+.banner-section-col{
+
+margin-bottom: 3rem;
+}
+
+
+.section-2-cl{
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+
+.section-3-cl {
+
+    padding-left: 4rem;
+    padding-right: 4rem;
+
+}
+
+
+
+.section-4-cl{
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+
+
+
+
+.after-content-hr{
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+.after-content-hr hr{
+    height: 2px;
+}
